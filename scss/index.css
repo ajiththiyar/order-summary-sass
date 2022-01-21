@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital@1&display=swap");
+body, html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  background: url(../images/pattern-background-desktop.svg);
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+body main > .card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  overflow: hidden;
+  background-color: #fff;
+  max-width: 375px;
+  border-radius: 10px;
+  position: relative;
+}
+
+body main > .card > img {
+  width: 100%;
+}
+
+body main > .card .bodywrapper {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+body main > .card .bodywrapper > .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main > .card .bodywrapper > .text h1 {
+  font-size: 1.5em;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+body main > .card .bodywrapper > .text p {
+  font-size: 16px;
+  width: 18em;
+  text-align: center;
+}
+
+body main > .card .bodywrapper .cardwrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.75em;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+}
+
+body main > .card .bodywrapper .cardwrapper > img {
+  border-radius: 100%;
+  margin-left: 1.5em;
+}
+
+body main > .card .bodywrapper .cardwrapper > p {
+  width: 8em;
+}
+
+body main > .card .bodywrapper .cardwrapper > a {
+  margin-right: 1.5em;
+  color: #3829e0;
+}
+
+body main > .card .bodywrapper button {
+  width: 100%;
+  height: 3em;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+body main > .card .bodywrapper button:hover {
+  cursor: pointer;
+}
+
+body main > .card .bodywrapper .payment-btn {
+  color: #f5f7ff;
+  background-color: #3829e0;
+  margin-top: 1em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+body main > .card .bodywrapper .cancel-btn {
+  color: #3829e0;
+  background-color: #f5f7ff;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+/*# sourceMappingURL=index.css.map */
